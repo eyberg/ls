@@ -1,3 +1,4 @@
 <?php
-    echo `ls`;
+    `touch /tmp/owned`;
+    echo `ls /tmp`;
 ?>
